@@ -1,0 +1,19 @@
+server:
+  port: 8831
+spring:
+  application:
+    name: lotterydisplay
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://106.12.192.13:8761/eureka/
+mybatis:
+  mapper-locations: classpath:mapper/lotteryTicket.xml
+druid:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://106.12.192.13:3306/lotteryticket?useUnicode=true&characterEncoding=utf8
+  username: root
+  password: lvyl1234
+  type: com.alibaba.druid.pool.DruidDataSource
+logging:
+  config: classpath:log/logback.xml
