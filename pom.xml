@@ -10,6 +10,7 @@
     </parent>
     <groupId>com.lvyl</groupId>
     <artifactId>lotterydisplay</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <name>lotterydisplay</name>
     <description>Demo project for Spring Boot</description>
 
@@ -88,6 +89,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>lotterydisplay</finalName>
     </build>
 
     <repositories>
