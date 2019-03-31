@@ -10,7 +10,6 @@
     </parent>
     <groupId>com.lvyl</groupId>
     <artifactId>lotterydisplay</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>lotterydisplay</name>
     <description>Demo project for Spring Boot</description>
 
@@ -61,6 +60,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <!-- json to object -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20160810</version>
         </dependency>
     </dependencies>
 

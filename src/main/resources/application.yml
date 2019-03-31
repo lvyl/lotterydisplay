@@ -11,7 +11,7 @@ mybatis:
   mapper-locations: classpath:mapper/lotteryTicket.xml
 druid:
   driverClassName: com.mysql.jdbc.Driver
-  url: jdbc:mysql://106.12.192.13:3306/lotteryticket?useUnicode=true&characterEncoding=utf8
+  url: jdbc:mysql://106.12.192.13:3306/lotteryticket?useUnicode=true&characterEncoding=utf8&useSSL=false
   username: root
   password: lvyl1234
   type: com.alibaba.druid.pool.DruidDataSource
