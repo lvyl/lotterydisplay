@@ -6,4 +6,5 @@ import java.util.Map;
 public interface LotteryTicketMapper {
     List selectRecentTerm(Map map);
     List selectTermBeginAndEnd(Map map);
+    Map getMaxCount();
 }

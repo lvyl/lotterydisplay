@@ -35,4 +35,10 @@
             ticketterm desc
         limit 0,#{count};
     </select>
+    <select id="getMaxCount" resultType="java.util.Map">
+        select name,time,score
+        from game2048score
+        order by score desc
+        limit 1
+    </select>
 </mapper>
